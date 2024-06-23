@@ -1,0 +1,41 @@
+.card_wrap {
+    width: 100;
+    height: 200;
+    border: 2px solid;
+    margin: 10;
+    display: flex;
+    justify-content: center;
+
+    i {
+        width: 20%;
+        height: auto;
+    }
+
+    h2 {
+        width: 20%;
+    }
+}
+
+.black_card {
+    border-color: black;
+    h2 {
+        font-size: 30;
+        color: black;
+    }
+    
+    i {
+        color: black;
+    }
+}
+
+.red_card {
+    border-color: red;
+    h2 {
+        font-size: 30;
+        color: red;
+    }
+    
+    img {
+        color: red;
+    }
+}
